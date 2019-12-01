@@ -24,6 +24,7 @@ body{
     width: 75%;
     float: left;
     padding-right: 30px;
+    position: relative;
 }
 
 .blog-post img{
@@ -82,4 +83,11 @@ p{
 
 #author-text{
     font-size: 22px;
+}
+
+.date{
+position: absolute;
+top:0;
+right: 30px;
+
 }
