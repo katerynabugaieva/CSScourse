@@ -21,21 +21,39 @@ body{
 }
 
 .blog-post{
-    background-color: #0000ff;
     width: 75%;
     float: left;
     padding-right: 30px;
 }
 
+.blog-post img{
+    height: 150px;
+    width: 150px;
+}
+
 .other-posts{
-    background-color: #00ff00;
     width: 25%;
     float: left;
 }
 
+.other{
+    margin-bottom: 40px;
+}
 .author-post{
     padding-top: 20px;
    border-top: 1px solid red;
+}
+
+.author-text{
+    font-size: 22px;
+    float:left;
+    margin: 0 15px 0 25px;
+}
+.author-post img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
 }
 
 h1,h2{
