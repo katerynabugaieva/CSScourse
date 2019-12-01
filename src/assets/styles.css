@@ -3,7 +3,7 @@ body{
     font-size: 18px;
 }
 h1,h2{
-    color: green;
+    color: rgba(31, 61, 224, 0.48)
 }
 h1{
     font-size: 40px;
@@ -16,4 +16,13 @@ h2{
 p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-text{
+    color: red;
+text-align: justify
+}
+
+#author-text{
+    font-size: 22px;
 }
