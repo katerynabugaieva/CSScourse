@@ -39,13 +39,12 @@ h1 {
     background-color: #e67e22;               /* https://flatuicolors.com/ */
     border: 1px solid  #e67e22;  /* https://flatuicolors.com/ */
     color: #fff;
-    transition: background-color 0.2s;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid  #e67e22;  /* https://flatuicolors.com/ */
-    color:  #e67e22;
+    border: 1px solid;
+    margin-right: 15px;
 }
 
 .btn:hover,
