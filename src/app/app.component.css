@@ -1,5 +1,6 @@
 header{
-    background-image: url('../assets/hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),       /*for contrast*/
+     rgba(0, 0, 0, 0.7)), url('../assets/hero.jpg');
     background-size: cover;         /*вся картинка*/
     background-position: center;    /*вся картинка по центру*/
     height: 100vh;                  /*весь видимый объем*/
