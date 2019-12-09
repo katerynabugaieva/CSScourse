@@ -1,0 +1,10 @@
+header{
+    background-image: url('../assets/hero.jpg');
+    background-size: cover;         /*вся картинка*/
+    background-position: center;    /*вся картинка по центру*/
+    height: 100vh;                  /*весь видимый объем*/
+}
+
+h1{
+    margin: 0;
+}
