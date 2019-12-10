@@ -1,3 +1,6 @@
+/*---------------------------------*/
+/*   HEADER      */
+/*---------------------------------*/
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),       /*for contrast*/
      rgba(0, 0, 0, 0.7)), url('../assets/hero.jpg');
@@ -14,16 +17,7 @@ header {
     transform: translate(-50%, -50%);           /*центрует ёлемент*/
 }
 
-h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 200%;            /*asap app font-size is fixed, we use relative sizes*/
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-}
+/*   BUTTONS      */
 
 .btn:link,
 .btn:visited{
