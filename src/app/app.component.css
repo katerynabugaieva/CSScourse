@@ -56,8 +56,8 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
-/*   BUTTONS      */
 
+/*   BUTTONS      */
 .btn:link,
 .btn:visited{
     display: inline-block;
