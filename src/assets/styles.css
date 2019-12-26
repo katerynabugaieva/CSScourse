@@ -22,10 +22,9 @@ section {
     padding: 80px 0;
 }
 /* HEADING */
-h1, h2 {
+h1, h2, h3 {
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 h1{
@@ -34,6 +33,7 @@ h1{
     margin-top: 0;
     margin-bottom: 20px;
     word-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 h2 { 
@@ -41,14 +41,20 @@ h2 {
  margin-bottom: 30px;
  text-align: center;
  word-spacing: 2px;
+ letter-spacing: 1px;
 }
 
-h2::after {
+h2::after {             /* элемент, который будет отображаться после*/
     display: block;
     height: 2px;
     background-color: #e67e22;
-    content: ' ';
+    content: ' ';       /*с псевдоэлемментом работает контент*/
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
 }
