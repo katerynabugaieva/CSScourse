@@ -126,8 +126,6 @@ margin-bottom: 10px;
     margin: 20px;
 }
 
-
-
  /* ------MEALS------ */
 
  .section-meals {
@@ -163,3 +161,51 @@ margin-bottom: 10px;
      opacity: 1;                        /*при наведении картинка кажется ярче*/
      transform: scale(1.05);           /*при наведении картника масштабируется к естественному размеру*/
  }
+
+ /* ------HOW IT WORKS SECTION------ */
+
+ .section-steps {
+     background-color: #f4f4f4;
+ }
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child { 
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-steps {
+    margin-bottom: 50px;
+}
+
+.works-steps:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-steps div {
+    color: #e67e22; 
+    border: 2px solid #e67e22; 
+    border-radius: 50%;
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+    margin-right: 25px;
+} 
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
