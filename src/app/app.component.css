@@ -256,3 +256,24 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
+
+
+/*------SIGN UP------*/
+.section-plans {
+    background-color: #f4f4f4;
+}
+.box-plan{
+    background-color: #fff;
+}
+
+.price {
+    color: #e67e22; 
+}
+
+.price label {
+    font-size: 300%;
+}
+
+.advantages ul li {
+    text-decoration: double solid;
+}
